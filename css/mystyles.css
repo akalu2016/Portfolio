@@ -1,0 +1,24 @@
+
+body {
+background-color:lightblue;
+font-style: italic;
+font-size: 1em;
+}
+
+  div {
+    background-color: #EAF0F6;
+    color: #5b3333;
+    border: 3px solid #00A4BD;
+    padding: 5px;
+}
+.grid-table {
+    display: grid;
+    grid-template-columns: 20% 40% 40%;
+    
+  }
+  @media (max-width:500px) {
+    .grid-table
+    {
+        grid-template-columns: 100%;
+    }
+  }
